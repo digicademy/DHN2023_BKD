@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Report on BKD</title>
+        <!-- meta information -->
+        <meta name="author" content="Thomas Kollatz" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=1024" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <!-- favicons -->
+        <link rel="shortcut icon" href="resources/img/favicon.png" />
+        <link rel="apple-touch-icon" href="resources/img/apple-touch-icon.png" />
+        <!-- CSS reset and grid -->
+        <link href="vendor/normalize/normalize-4.1.1.css" rel="stylesheet" />
+        <link href="vendor/skeleton/skeleton-2.0.4.css" rel="stylesheet" />
+        <!-- fonts -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,600italic,400italic,700italic,800,800italic&amp;subset=latin,latin-ext"
+            rel="stylesheet" type="text/css" />
+        <!-- styles for included libraries -->
+        <!-- unite gallery -->
+        <link rel="stylesheet" href="vendor/unitegallery/css/unite-gallery.css" type="text/css" />
+        <!-- codemirror -->
+        <link rel="stylesheet" href="vendor/codemirror/lib/codemirror.css" />
+        <!-- highlight -->
+        <link rel="stylesheet" href="vendor/highlight/styles/default.css" />
+        <link rel="stylesheet" href="resources/css/hljs.linenumbering.css" />
+        <!-- swiper -->
+        <link rel="stylesheet" href="vendor/swiper/swiper.min.css" />
+        <!-- magnific popup -->
+        <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup-1.1.0.css" />
+        <!-- standard presentation styles -->
+        <link href="resources/css/style.css" rel="stylesheet" />
+        <!-- custom presentation styles -->
+        <link href="resources/css/custom.css" rel="stylesheet" />
+        <!-- hint styles -->
+        <link href="resources/css/hint.css" rel="stylesheet" />
+        <!-- js needed in head -->
+        <!-- greuler -->
+        <script src="vendor/d3/d3-3.5.6.js"></script>
+        <script src="vendor/cola/cola.v3.min.js"></script>
+        <script src="vendor/greuler/greuler-0.5.5.min.js"></script>
+        <!-- html5 dataset shim for IE -->
+        <script src="vendor/impress/html5-dataset.js"></script>
+    </head>
+    <body>
+        <div class="fallback-message">
+            <p> Your browser <strong>doesn't support the features required</strong> by
+                impress.mod.js, so you are presented with a simplified version of this presentation. </p>
+            <p> For the best experience please use the latest <strong>Chrome</strong>,
+                    <strong>Safari</strong> or <strong>Firefox</strong> browser. </p>
+        </div>
+        <div id="impress">
+            <div class="step">
+                <h5>January 18<sup>th</sup> 2023 | München Digital Humanities Networking
+                    Meeting</h5>
+                <h1 class="down-50">Buber-Correspondences Digital</h1>
+                <h2 class="up-25">Report</h2>
+                <h3 class="down-100">
+                    <strong>Academy of Sciences and Literature | Mainz</strong>
+                </h3>
+                <h4>
+                    <a href="https://orcid.org/0000-0003-1904-1841" target="_blank">Thomas
+                        Kollatz</a>
+                    <!-- | 🔗 <a href="https://digicademy.github.io/eHum2022_BKD"
+                        title="View the presentation online"
+                        >https://digicademy.github.io/eHum2022_BKD</a>-->
+                    <br />
+                    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY
+                        4.0</a>
+                </h4>
+            </div>
+            <div class="step">
+                <h2>Buber-Correspondences Digital</h2>
+                <h3>BKD (2021-2045) – 24 years</h3>
+                <div class="row">
+                    <div class="four columns">
+                        <figure class="mfp-lightbox">
+                            <a
+                                href="resources/img/screencapture-adwmainz-de-en-projects-buber-korrespondenzen-digital-description-html-2022-06-13-16_22_07.png"
+                                target="_blank">
+                                <img
+                                    src="resources/img/screencapture-adwmainz-de-en-projects-buber-korrespondenzen-digital-description-html-2022-06-13-16_22_07.png"
+                                    alt="bkd" style="width:25rem" />
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="eight columns">
+                        <ul>
+                            <li>about 7,000 correspondence partner</li>
+                            <li>about 41,400 correspondences</li>
+                            <li>currently 5,380 archive folders</li>
+                            <li>106,073 digitised images: 106,073 </li>
+                            <li>time span: 1895-1965</li>
+                            <li>12 languages</li>
+                            <li>Geographical scope: worldwide</li>
+                        </ul>
+                        <p class="right">
+                            <a href="https://agate.academy/id/PR.768.EN" target="_blank">🔗</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="step">
+                <h2>Modules</h2>
+                <h3>Eight thematic paths</h3>
+                <ol class="medium">
+                    <li>Jewish Renaissance - Cultural Zionism - Palestine/State of Israel</li>
+                    <li>Religion(s) and Religious Studies</li>
+                    <li>Dialogical Thought - Philosophy of Religion</li>
+                    <li>Philosophy of Language - Translation - Biblical Commentary</li>
+                    <li>Challenges to Christianity and Critical Dialogue with Christian Theology</li>
+                    <li>Literature - Art - Theatre</li>
+                    <li>Political Philosophy and Social Philosophy</li>
+                    <li>Philosophical Anthropology - Pedagogy - Psychology/Psychotherapy</li>
+                </ol>
+            </div>
+            <div class="step">
+                <h2>Module 1</h2>
+                <h3>Jewish Renaissance - Cultural Zionism - Palestine</h3>
+                <blockquote class="x-small line-height-one-two-five">25. Zionist. Kongress ● Aberson, Zevi ● Achad Haam ● Arlosoroff, Chaim ● Auerbach, Elias ● Badt, Hermann ● Balaban, Majer ● Bayer, Ronald ● Becker, Raymond de ● Ben-Gurion, David ● Bergel-Gronemann, Elfriede ● Bergmann, Hugo ● Birnbaum, Nathan ● Bloch, Joseph ● Blumel, André ● Blumenfeld, Kurt ● Blumstein, Leo ● Britschgi-Schimmer, Ina ● Brod, Max ● Chanoch, Giora ● Chofshi, Nathan ● Cohn, Benno ● Exekutive der Zionist. Organisation ● Die Welt ● Diesendruck, Zevi ● Dinur, Ben Zion ● Ehrenpreis, Marcus ● Einstein, Albert u. Elsa ● Epstein, Oskar ● Eshkol, Levi ● Feiwel, Berthold ● Fliesz, Robert ● Freudenberg, Gideon u. Hadassah ● Friedman, Yeshayahu ● Gärtner, Hans ● Glaser, B. ● Goldmann, Nahum ● Gruenbaum, Isaak u. Kirszrot, Jan ● Grunewald, Hans ● Guthmann, Georg ● Haas, Paul u. Else ● Hantke, Arthur ● Herrmann, Hugo ● Herrmann, Leo ● Herzl, Hans ● Herzl, Theodor ● Jacobson, Victor ● Jehuda, Zwi ● Jungjüdischer Club ● Kaznelson, Siegmund ● Kellner, Leon ● Kellner, Viktor ● Kestenberg, Leo ● Klee, Alfred ● Klein, Ludwig ● Kohn, Hans ● Lee Daniel, Sharon ● Lichtenstädter, S. ● Lilien, Ephraim Moses ● Lisod, Avraham ● Luft, Gerda ● Magnes, Judah Leon ● Mansour, Atalla ● Manteuffel, Maxim ● Margulies, Heinrich ● Marshall, James ● Massignon, Louis ● Maus, S. ● Meier-Cronemeier, Hermann ● Mirelman, José ● Müller, Ernst ● Münz, Hermann ● Musaph-Andriesse, Herman u. R. ● Nederlandse zionist. Studenten Organisatie ● Nordau, Max ● Norman, Edward A. ● Nossig, Adolf ● Nussenblatt, Tulo ● Persitz, Shoshana ● Pomeranz, Jochanan Hans ● Radler-Feldman, Benjamin ● Ravdin, Bella ● Reichert, Israel ● Reiner, Markus ● Resek, Felix ● Robinsohn, Abraham ● Rokach, Israel ● Rose, Desiderius ● Rosenblüth, Felix ● Rothschild, Fritz A. ● Ruffer, Jozek ● Rülff, Isaak ● Ruppin, Arthur ● Salten, Felix ● Sandbank, Jakob ● Sandler, Aaron ● Schalit, Isidor ● Scherlag, Mark ● Schild, H.F. ● Schiller, S. ● Schocken, Gustav Gershom ● Senator, David Werner ● Sharett, Moshe ● Shereshevsky, Shimon ● Simon, Johanna ● Simon, Julius ● Simons, Marie E. ● Simonsohn ● Simonson, Emil ● Smilansky, Moshe ● Sokolow, Nahum ● Stapel, Wilhelm ● Stendig, S. ● Stern, Arthur ● Stern, Eva ● Stern, Hugo ● Sternberger, Marcel ● Tabari, Farid-Wajdi ● Thieberger, Friedrich ● Thon, Helene Hanna ● Thon, Osias ● Trietsch, Davis ● Unna, W. ● Ussishkin, Menachem ● Warburg, Otto ● Warszawska Grupa ● Weisl, Wolfgang ● Weiss, Robert ● Weizmann, Chaim ● Weltsch, Felix ● Weltsch, Robert ● Wertheim, Paul ● Westphal, Leni ● Winz, Leo ● Zangwill, Israel ● Zionist Federation ● Zionist Record ● Zionistfoereningen Stockholm ● Zionist. Bibliothek ● Zionist. Föderation Frankreichs ● Zionist. Organisation in Deutschland ● Zionist. Ortsgruppe Hamburg-Altona ● Zionist. Vereinigung für Deutschland ● Zionist. Jugendverband Ungarn ● Zionist. Zentralbüro ● Zlocisti, Theodor ● Zobel, Moritz ● Zweig, Stefan
+                </blockquote>
+            </div>
+            <div class="step">
+                <h2>Concept</h2>
+                <h3>Differentiated coverage achieved with TEI</h3>
+                <table>
+                    <tr>
+                        <th>type</th>
+                        <th>&lt;correspDesc&gt;</th>
+                        <th>&lt;abstract&gt;</th>
+                        <th>&lt;text&gt;</th>
+                        <th class="right">%</th>
+                        <th class="right">✉️</th>
+                    </tr>
+                    <tr>
+                        <td>A</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                        <td class="right">20</td>
+                        <td class="right">8,300️</td>
+                    </tr>
+                    <tr>
+                        <td>B</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                        <td></td>
+                        <td class="right">65</td>
+                        <td class="right">26,900️️</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>✅</td>
+                        <td></td>
+                        <td></td>
+                        <td class="right">100</td>
+                        <td class="right">41,400️</td>
+                    </tr>
+                </table>
+                
+            </div>
+            <div class="step">
+                <h2>Transformation</h2>
+                <h3>From archive logic to correspondence structure</h3>
+                <table>
+                    <tr>
+                        <th>Archive (NLI)</th>
+                        <th>BKD06626 Weltsch, Felix</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <figure class="mfp-lightbox">
+                                <a href="resources/img/NLI_Weltsch_Felix.png">
+                                    <img src="resources/img/NLI_Weltsch_Felix.png"
+                                        alt="Archivmappen der NLI" />
+                                </a>
+                            </figure>
+                        </td>
+                        <td>
+                            <figure class="mfp-lightbox">
+                                <a href="resources/img/BKD06626.png">
+                                    <img src="resources/img/BKD06626.png" alt="BKD-Korrespondenz"
+                                        style="width:40rem" />
+                                </a>
+                            </figure>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3 archive folders</td>
+                        <td>34 BKD-TEI-XML files</td>
+                    </tr>
+                </table>
+                            </div>
+            <div class="step">
+                <h2>Googlespreadsheets</h2>
+                <h3>Tool for indexing the content</h3>
+                
+                <div class="row">
+                    <div class="five columns">
+                        <figure class="mfp-lightbox">
+                            <a href="resources/img/google_tabelle.png">
+                                <img src="resources/img/google_tabelle.png" alt="Erfassungstabelle"
+                                 />
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="seven columns">
+                        
+                        <ul class="down-25">
+                            <li>from folders to correspondence units </li>
+                            <li>Link to digital images</li>
+                            <li>Identification of correspendence units (images == letter)</li>
+                            <li>Enriching with metadata</li>
+                            <li>Base for script-driven XML generation </li>
+                            <li>
+                                <q>One-way table</q>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="step">
+                <h2>eScriptorium</h2>
+                <h3>Transcription tool | HTR</h3>
+                <div class="row">
+                    <div class="four columns">
+                        <figure class="mfp-lightbox">
+                            <a href="resources/img/google_tabelle.png">
+                                <img src="resources/img/google_tabelle.png" alt="google_tabelle" />
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="four columns">
+                        <figure class="mfp-lightbox">
+                            <a href="resources/img/eScr_01.png">
+                                <img src="resources/img/eScr_01.png" alt="eScriptorium" />
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="four columns">
+                        <figure class="mfp-lightbox">
+                            <a href="resources/img/eScr2XML.png">
+                                <img src="resources/img/eScr2XML.png"
+                                    alt="BKD00501.19120912.01.S.xml" />
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+                <ul>
+                    <li><em>todo</em> Train HTR-model for Buber's handwriting (currently 94% / 30 pages)</li>
+                    <li><em>now</em> eScriptorium as a convenient editing tool</li>
+                    <li>Export of transcriptions: from pageXml to BKD-TEI-XML</li>
+                    <li>Integration into file generation: from initial entry in Google via
+                        transcription scripts to BKD-TEI-XML file</li>
+                </ul>
+            </div>
+            
+            <div class="step">
+                <h2>&lt;correspDesc&gt; </h2>
+                <h3>interoperability: correspSearch and CMIF (Type C)</h3>
+                <div class="row">
+                    <div class="twalve columns">
+                        <pre><code class="linenumbers xml">&lt;correspDesc 
+    ref="https://bkd.adwmainz.net/correspondences/BKD06626/BKD06626.19271001.01.S"&gt;
+ &lt;correspAction type="sent"&gt;
+  &lt;persName key="P.0000001"&gt;Buber, Martin&lt;/persName&gt;
+  &lt;placeName key="O.0000105"&gt;Heppenheim an der Bergstraße&lt;/placeName&gt;
+  &lt;date when="1927-10-01"/&gt;
+ &lt;/correspAction&gt;
+ &lt;correspAction type="received"&gt;
+  &lt;persName key="P.0005621"&gt;Weltsch, Felix&lt;/persName&gt;
+  &lt;placeName key="O.0000165" evidence="conjecture" cert="high"&gt;Prag&lt;/placeName&gt;
+ &lt;/correspAction&gt;
+&lt;/correspDesc&gt;
+</code></pre>
+                        <!--<ul><li>Kerninformationen über die Korrespondenzeinheit mittels <code>correspDesc</code>-Element</li><li><em>TYP C</em> in BKD Nomenklatur </li></ul>-->
+                    </div>
+                </div>
+            </div>
+            <div class="step">
+                <h2>&lt;text&gt;</h2>
+                <h3>Full text with entities mentioned (Type A)</h3>
+                <pre><code>&lt;text&gt;&lt;body&gt;&lt;div type="content" xml:lang="de"&gt;&lt;pb facs="#scan_3777989-10_0009" n="1"/&gt;
+ &lt;opener&gt;
+  &lt;dateline&gt;Heppenheim &lt;date when="1927-10-01"&gt;I.X.27&lt;/date&gt;&lt;/dateline&gt;
+  &lt;salute&gt;Sehr geehrter Herr Doktor –&lt;/salute&gt;
+ &lt;/opener&gt;
+ &lt;p&gt;Ich wäre natürlich gern bereit, Herrn 
+ &lt;persName key="P.0005944"&gt;Dr. &lt;lb/&gt;Koydl&lt;/persName&gt; zu schreiben; aber, wie 
+ vortrefflich &lt;lb/&gt;er auch selber sein mag, sein 
+ &lt;name type="work" key="W.0000078.01.01"&gt;Buch&lt;/name&gt; ist sehr &lt;lb/&gt;schlecht, noch 
+ dazu in jener verschwärmten, &lt;lb/&gt;überschwungnen Art, die mir schon an sich 
+ &lt;lb/&gt;höchst bedenklich ist. Erweise ich ihm nun &lt;lb/&gt;wirklich einen 
+ Dienst, wenn ich ihm das, wenn &lt;lb/&gt;auch in schonenderer Form, sage? Für manche 
+ &lt;lb/&gt;Menschen ist doch das &lt;q&gt;Produktions&lt;/q&gt;gefühl selber 
+ &lt;lb/&gt;ein Halt, und wer es ihnen fraglich macht, erschüt&lt;lb rend="hyphen"/&gt;tert 
+ ihre Sicherheit – ohne ihnen dafür einen Ersatz &lt;lb/&gt;anbieten zu können.&lt;/p&gt;
+ &lt;closer&gt;
+  &lt;salute rend="inline"&gt;Herzlich grüssend&lt;/salute&gt;
+  &lt;signed&gt;Ihr &lt;lb/&gt;Buber&lt;/signed&gt;
+ &lt;/closer&gt;&lt;/div&gt;&lt;/body&gt; &lt;/text&gt;
+</code></pre>
+            </div>
+            <div class="step">
+                <h2>&lt;abstract&gt;</h2>
+                <h3>1. regest (Type A and Type B)</h3>
+                <pre><code class="linenumbers">&lt;abstract&gt;
+ &lt;list type="content"&gt;
+  &lt;item&gt;Buber hat Vorbehalte gegen Karl Koydls Gedichtband "Phoenix-Kreise" 
+    und lehnt daher Weltschs Bitte ab, Koydl seine Einschätzung zu schreiben.&lt;/item&gt;
+ &lt;/list&gt;
+</code></pre>
+                <ul>
+                    <li><em>Item(s)</em> in human-readable easy language</li>
+
+                    <li>Quick access to correspondence</li>                </ul>
+            </div>
+            <div class="step">
+                <h2>&lt;abstract&gt; </h2>
+                <h3>2. Entities in static form (registers)</h3>
+                <pre><code class="linenumbers">&lt;listPerson&gt;
+ &lt;person&gt;&lt;persName key="P.0005944"&gt;Koydl, Karl&lt;/persName&gt;&lt;/person&gt;
+&lt;/listPerson&gt;
+&lt;list type="works"&gt;
+ &lt;item&gt;&lt;name type="work" key="W.0000078.01.01"&gt;Koydl, Karl: Phoenix-Kreise&lt;/name&gt;
+ &lt;/item&gt;
+&lt;/list&gt;
+&lt;list type="keywords"&gt;
+ &lt;item&gt;&lt;name type="keyword" key="S.0000022"&gt;Werk-Einschätzung&lt;/name&gt;&lt;/item&gt;
+&lt;/list&gt;
+</code></pre>
+                <ul>
+                    <li>Register of entities mentioned explicitly and <em>implicitly</em> in the text (persons,
+                        places, events, works, keywords, organisations)</li>
+                </ul>
+            </div>
+            <div class="step">
+                <h2>&lt;abstract&gt; </h2>
+                <h3>3. Entities in dynamic form (relations)</h3>
+                <pre><code class="linenumbers"> &lt;listRelation&gt;
+  &lt;relation active="P.0000001" name="perceives" passive="W.0000078.01.01"/&gt;
+  &lt;relation active="P.0000001" name="criticizes" passive="W.0000078.01.01"/&gt;
+ &lt;/listRelation&gt;
+&lt;/abstract&gt;
+</code></pre>
+                <!-- aufräumen -->
+                <ul>
+                    <li><code>abstract</code> provides index of the entities relevant for a correspondence unit and, if applicable, their relations in readable form for human and machine</li>
+                    <li>entities in a network</li>
+                </ul>
+            </div>
+            <div class="step">
+                <h2>ODD</h2>
+                <h3>One Document does it all</h3>
+                <div class="row">
+                    <div class="six columns">
+                        <div class="row">
+                            <div class="six columns">
+                                <figure class="mfp-lightbox">
+                                    <a href="resources/img/romabeta.png">
+                                        <img src="resources/img/romabeta.png" alt="romabeta"
+                                            style="width:18rem;" />
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="six columns">
+                                <figure class="mfp-lightbox">
+                                    <a href="resources/img/tei_bkd_odd_richtlinien.png">
+                                        <img src="resources/img/tei_bkd_odd_richtlinien.png"
+                                            alt="romabeta" style="width:18rem;" />
+                                    </a>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="six columns">
+                                <figure class="mfp-lightbox">
+                                    <a href="resources/img/tei_bkd_odd.png">
+                                        <img src="resources/img/tei_bkd_odd.png" alt="romabeta"
+                                            style="width:18rem;" />
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="six columns">
+                                <figure class="mfp-lightbox even-left">
+                                    <a href="resources/img/abstract_mit_odd.png">
+                                        <img src="resources/img/abstract_mit_odd.png" alt="romabeta"
+                                            style="width:18rem;" />
+                                    </a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="six columns">
+                        <blockquote>BKD made good experiences with TEI customizing with <code>ODD</code> (one document does it all) for documentation as well as schema development. By now, the TEI-BKD ODD is maintained by the editors. </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="step">
+                <h2>metadata managment</h2>
+                <h3>openRefine and Wikidata</h3>
+                <table>
+                    <tr>
+                        <td>person</td>
+                        <td>BKD-key</td>
+                        <td>GND | wikidata</td>
+                    </tr>
+                    <td>place</td>
+                    <td>BKD-key</td>
+                    <td>geonames | wikidata</td>
+                </table>
+                <blockquote>As far as possible, we link person data with <code>GND</code>, place data with <code>geonames</code>. Where this is not possible, Wikidata entries are created. There is hardly any standards data on organisation and events in particular. 
+                    <code>OpenRefine</code> has proven to be an extremely helpful tool for indexing and managing the extensive metadata. </blockquote>
+            </div>
+            <div class="step">
+                <h2>proof of concept</h2>
+                <h3>From BKD-TEI-XML to RDF and CIDOC-CRM</h3>
+                <div class="row">
+                    <div class="four columns">
+                        <figure class="mfp-lightbox">
+                            <a href="resources/img/Relation_Herzl_Buber.png">
+                                <img src="resources/img/Relation_Herzl_Buber.png"
+                                    alt="Buber-Herzl-relation" />
+                            </a>
+                        </figure>
+                        <div class="row">
+                            <div class="six columns">
+                                <figure class="mfp-lightbox">
+                                    <a href="resources/img/sparql_query.png">
+                                        <img src="resources/img/sparql_query.png" alt="sparql_query"
+                                         />
+                                    </a>
+                                    <figcaption class="x-small">sparql</figcaption>
+                                </figure>
+                            </div>
+                            <div class="six columns">
+                                <figure class="mfp-lightbox">
+                                    <a href="resources/img/cypher_query.png">
+                                        <img src="resources/img/cypher_query.png" alt="cypher_query"
+                                         />
+                                    </a>
+                                    <figcaption class="x-small">cypher</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="eight columns">
+                        <p class="medium">Internship project <a
+                                href="https://www.adwmainz.de/mitarbeiterinnen/profil/linnaea-soehn.html"
+                                target="blank">Linnaea Söhn</a>: <q>Buber und der Zionismus:
+                                Evaluation, Entwicklung und Erprobung eines generischen Datenmodells
+                                zur zionistischen Bewegung</q></p>
+                        <ul class="medium">
+                            <li>Visualisations of the data modelling</li>
+                            <li> iles for the automated transformation of the underlying edition files encoded in
+                                TEI-XML encoded edition files into RDF/XML using XSLT</li>
+                            <li> Extracted triples in the RDF/XML and Turtle serialisations </li>
+                            <li>Suggestions for SPARQL queries to the data </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="step">
+                <h2>share your data</h2>
+                <h3>lessons learned</h3>
+                <blockquote>One "lesson learned" of the student internship project, for example, was that it makes a lot of sense to include "implicit" entities, i.e. entities not explicitly mentioned in the correspondence ("the elephant in the room") explicitly in the metadata (=Type B).</blockquote>
+                <p class="x-small">internship <a
+                        href="https://www.adwmainz.de/mitarbeiterinnen/profil/linnaea-soehn.html"
+                        target="blank">Linnaea Söhn</a>: <q>Buber und der Zionismus: Evaluation,
+                        Entwicklung und Erprobung eines generischen Datenmodells zur zionistischen
+                        Bewegung</q></p>
+            </div>
+            <div class="step">
+                <h2>proof of concept</h2>
+                <h3>Graph database as a tool for analysis</h3>
+                <div class="row">
+                    <div class="six columns">
+                        <figure class="mfp-lightbox even-left">
+                            <a href="resources/img/neo4j.png">
+                                <img src="resources/img/neo4j.png" alt="neo4j" style="width:40rem"
+                                 />
+                            </a>
+                        </figure>
+                        <p class="x-small">Visualisation generated with the help of <a
+                                href="https://www.adwmainz.de/mitarbeiterinnen/profil/prof-dr-andreas-kuczera.html"
+                                target="blank">Andreas Kuczera</a></p>
+                    </div>
+                    <div class="six columns">
+                        <ul>
+                            <li>BKD focuses more on the relations between entities ...</li>
+                            <li>... less on <em>full text</em> (transcription)</li>
+                            <li><code>text</code> may be less important | useful than the structured reproduction of the contents of the correspondence in the
+                                <code>abstract</code></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="step">
+                <h2>proof of concept</h2>
+                <h3>... dare more hackathon ...</h3>
+                
+                <blockquote>As part of the student internship project, the cooperation with relevant graph data bank experts and the hackathon "DH Jewish Studies", the relational data model was and is tested for resilience at a fairly early stage of the project - by external experts. These tests were not really planned, rather serendipity. The experience that third parties understand BKD data, BKD relations and the BKD data model in principle, and that from the
+                    and actually enable relevant analyses and visualisations from the abstract distinction of the relations is reassuring feedback. Positive was
+                    also that, if necessary, weaknesses in the model could be recognised early on and adjustments made.
+                    
+                    </blockquote>
+            </div>
+            <div class="step">
+                <h2>BKD</h2>
+                <h3>team and friends</h3>
+                <div class="row">
+                    <div class="six columns">
+                        <figure class="mfp-lightbox">
+                            <a href="resources/img/Vignette_neu_BKD.jpg">
+                                <img src="resources/img/Vignette_neu_BKD.jpg" alt="Vignette BKD" />
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="six columns">
+                        <p class="medium down-25"><strong>Editorik</strong> Susan Baumert (Jena),
+                            Heike Breitenbach (FFM), Francesco Ferrari (Jena), Denise Jurst-Görlach
+                            (FFM) <strong>Erfassungstabellen</strong> Rabea Freund-Biton, Christof
+                            Müller <strong>Digitale Akademie</strong> Julian Jarosch, Thomas
+                            Kollatz, Lea Müller-Dannhausen <strong>Projektleitung</strong> Martin
+                            Leiner, Christan Wiese <strong>Praxisprojekt</strong> Linnaea Söhn
+                                <strong>Neo4J</strong> Andreas Kuczera <strong>DH Jewish
+                                Hackathon</strong> AG <a
+                                href="https://www.uni-potsdam.de/de/digital-humanities/aktivitaeten/henriette-herz-hackathons/dhjewish-hackathon/a-jewish-republic-of-letters"
+                                >Jewish Republic of letters</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- jquery -->
+        <script src="vendor/jquery/jquery-1.11.0.min.js"></script>
+        <!-- unite gallery -->
+        <script src="vendor/unitegallery/js/unitegallery.min.js"></script>
+        <script src="vendor/unitegallery/themes/tiles/ug-theme-tiles.js"></script>
+        <script src="resources/js/unite.gallery.js"></script>
+        <!-- highlight -->
+        <script src="vendor/highlight/highlight.pack-9.3.0.js"></script>
+        <script>
+            hljs.initHighlightingOnLoad();</script>
+        <script src="resources/js/hljs.linenumbering.js"></script>
+        <!-- swiper -->
+        <script src="vendor/swiper/swiper.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+                spaceBetween: 30,
+                hashnav: true
+            });</script>
+        <!-- magnific popup -->
+        <script src="vendor/magnific-popup/jquery.magnific-popup.min-1.1.0.js"></script>
+        <script src="resources/js/magnific-popup.lightbox.js"></script>
+        <!-- impress.mod.js -->
+        <script src="vendor/impress/impress.fork.js"></script>
+        <script src="vendor/impress/impress-slidenum.js"></script>
+        <script>
+            var obj = impress();
+            obj.init();
+            initSlideNo(obj);</script>
+        <!-- mermaid -->
+        <!--<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>-->
+        <script src="resources/js/mermaid.min.js"></script>
+        <script>
+            mermaid.initialize({
+                startOnLoad: true
+            });</script>
+        <!--<script>
+            var videoStep = document.getElementById("video-step");
+var video = document.getElementById("video");
+videoStep.addEventListener("impress:stepenter", function() {
+    video.play();
+}, false);
+videoStep.addEventListener("impress:stepleave", function() {
+    video.pause();
+}, false);
+        </script>-->
+        <script>
+            var videos = document.getElementsByTagName("video");
+            Array.prototype.forEach.call(videos, function (video) {
+                var videoStep = video.closest(".step");
+                videoStep.addEventListener("impress:stepenter", function () {
+                    video.play();
+                },
+                false);
+                videoStep.addEventListener("impress:stepleave", function () {
+                    video.pause();
+                },
+                false);
+            });</script>
+    </body>
+</html>
