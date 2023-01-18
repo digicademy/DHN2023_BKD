@@ -258,22 +258,27 @@
             </div> 
             <div class="step">
                 <h2>&lt;correspDesc&gt; </h2>
-                <h3>interoperability: correspSearch and CMIF (Type C)</h3>
+                <h3>interoperability (Type C)</h3>
                 <div class="row">
                     <div class="twalve columns">
                         <pre><code class="linenumbers xml">&lt;correspDesc 
     ref="https://bkd.adwmainz.net/correspondences/BKD06626/BKD06626.19271001.01.S"&gt;
  &lt;correspAction type="sent"&gt;
-  &lt;persName key="P.0000001"&gt;Buber, Martin&lt;/persName&gt;
-  &lt;placeName key="O.0000105"&gt;Heppenheim an der Bergstraße&lt;/placeName&gt;
+  &lt;persName  ref="https://lobid.org/gnd/118516477"  
+             key="P.0000001"&gt;Buber, Martin&lt;/persName&gt;
+  &lt;placeName ref="https://www.geonames.org/6559112" 
+             key="O.0000105"&gt;Heppenheim an der Bergstraße&lt;/placeName&gt;
   &lt;date when="1927-10-01"/&gt;
  &lt;/correspAction&gt;
  &lt;correspAction type="received"&gt;
-  &lt;persName key="P.0005621"&gt;Weltsch, Felix&lt;/persName&gt;
-  &lt;placeName key="O.0000165" evidence="conjecture" cert="high"&gt;Prag&lt;/placeName&gt;
+  &lt;persName  ref="https://lobid.org/gnd/117279234"  
+             key="P.0005621"&gt;Weltsch, Felix&lt;/persName&gt;
+  &lt;placeName ref="https://www.geonames.org/3067696" 
+             key="O.0000165" evidence="conjecture" cert="high"&gt;Prag&lt;/placeName&gt;
  &lt;/correspAction&gt;
 &lt;/correspDesc&gt;
 </code></pre></div>
+                    <ul><li>interface to <a href="https://correspsearch.net/en/home.html" target="_blank">correspSearch</a> based on Correspondence Metadata Interchange Format(<a href="https://correspsearch.net/en/documentation.html" target="_blank">CMIF</a>)</li></ul>
                 </div>
             </div>
             <div class="step">
@@ -500,6 +505,62 @@ W.0000078.01.01 &#128214; Koydl, Karl: Phoenix-Kreise
                             <li><code>text</code> may be less important | useful than the structured reproduction of the contents of the correspondence in the
                                 <code>abstract</code></li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="step">
+                <h2>Reproducibility</h2>
+                <h3>Share your data</h3>
+                <div class="row">
+                    <div class="four columns">
+                        <h4>Praxisprojekt</h4>
+                        <p class="small"><a
+                            href="https://www.adwmainz.de/mitarbeiterinnen/profil/linnaea-soehn.html"
+                            target="blank">Linnaea Söhn</a>: <q>Buber und der Zionismus:
+                                Evaluation, Entwicklung und Erprobung eines generischen Datenmodells
+                                zur zionistischen Bewegung</q></p>
+                        <figure class="mfp-lightbox">
+                            <a href="resources/img/Relation_Herzl_Buber.png">
+                                <img src="resources/img/Relation_Herzl_Buber.png"
+                                    alt="Buber-Herzl-relation" />
+                            </a>
+                        </figure>
+                        
+                    </div>
+                    <div class="four columns">
+                        <h4>Graph-LAB</h4>
+                        <figure class="mfp-lightbox even-left">
+                            <a href="resources/img/neo4j_UB_Prag.png">
+                                <img src="resources/img/neo4j_UB_Prag.png" alt="neo4j"
+                                    style="width:30rem" />
+                            </a>
+                        </figure>
+                        <p class="x-small">in Zusammenarbeit mit <a
+                            href="https://www.adwmainz.de/mitarbeiterinnen/profil/prof-dr-andreas-kuczera.html"
+                            target="blank">Andreas Kuczera</a> (THM Giessen | ADWLM)</p>
+                    </div>
+                    <div class="four columns">
+                        <h4>DH Jewish <a
+                            href="https://www.uni-potsdam.de/de/digital-humanities/aktivitaeten/henriette-herz-hackathons/dhjewish-hackathon"
+                            target="_blank">Hackathon</a></h4>
+                        <blockquote class="x-small">The primary aim of this Hackathon, as we
+                            understand it, is to create a shared open space in which the
+                            participants take time to discuss and experimentally explore topics at
+                            the intersection of Digital Humanities and Jewish Studies. Therefore, it
+                            is not a question of producing finished results or presenting final
+                            products, but of jointly exploring possible paths, developing
+                            prototypes, discovering spaces of practice.</blockquote>
+                        <p class="small"> </p>
+                        <figure class="mfp-lightbox">
+                            <a href="resources/img/DH_JEWISH.png">
+                                <img src="resources/img/DH_JEWISH.png" alt="DH Jewish minutes" />
+                            </a>
+                        </figure>
+                        <p class="x-small">
+                            <a
+                                href="https://www.uni-potsdam.de/de/digital-humanities/aktivitaeten/henriette-herz-hackathons/dhjewish-hackathon/a-jewish-republic-of-letters"
+                                target="_blank">AG Jewish Republic of letters</a>
+                        </p>
                     </div>
                 </div>
             </div>
